@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development",
+    "pm2":"pm2 start app.js --name='myheart'"
   },
   "author": "",
   "license": "ISC"
